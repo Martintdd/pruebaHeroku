@@ -192,6 +192,16 @@ main section article:hover .description{
     background-color: #0022AA;
 }
 
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: #EAC926;
+}
+
+footer div {
+    padding: 10px;
+}
+
 @media (min-width: 361px){
     main section div.products{
         display: flex;
@@ -214,5 +224,16 @@ main section article:hover .description{
 @media (min-width: 769px){
     main section div.products article{
         width: 22%;
+    }
+    
+    footer {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    footer i:hover {
+        color: #0022AA;
     }
 }
